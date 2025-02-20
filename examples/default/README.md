@@ -31,7 +31,9 @@ No providers.
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_local_file"></a> [local\_file](#module\_local\_file) | ../../ | n/a |
 
 ## Resources
 
@@ -43,5 +45,13 @@ No inputs.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_content_base64sha256"></a> [content\_base64sha256](#output\_content\_base64sha256) | Base64 encoded SHA256 checksum of file content |
+| <a name="output_content_base64sha512"></a> [content\_base64sha512](#output\_content\_base64sha512) | Base64 encoded SHA512 checksum of file content |
+| <a name="output_content_md5"></a> [content\_md5](#output\_content\_md5) | MD5 checksum of file content |
+| <a name="output_content_sha1"></a> [content\_sha1](#output\_content\_sha1) | SHA1 checksum of file content |
+| <a name="output_content_sha256"></a> [content\_sha256](#output\_content\_sha256) | SHA256 checksum of file content |
+| <a name="output_content_sha512"></a> [content\_sha512](#output\_content\_sha512) | SHA512 checksum of file content |
+| <a name="output_id"></a> [id](#output\_id) | The hexadecimal encoding of the SHA1 checksum of the file content |
 <!-- END_TF_DOCS -->
